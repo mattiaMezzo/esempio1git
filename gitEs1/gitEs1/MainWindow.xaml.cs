@@ -29,10 +29,12 @@ namespace gitEs1
         {
             double[] v = new double[10];
             Random rnd = new Random();
+            // ciclo per caricare il vettore di numeri casuali
             for(int i = 0; i < 10; i++)
             {
                 v[i] = rnd.Next(0, 100);
             }
+            double somma = 0;
             for(int j = 0; j < 10; j++)
             {
                 somma += v[j];
