@@ -24,7 +24,7 @@ namespace gitEs1
         {
             InitializeComponent();
         }
-
+        //bottone calcolo media
         private void btnMedia_Click(object sender, RoutedEventArgs e)
         {
             double[] v = new double[10];
@@ -33,7 +33,6 @@ namespace gitEs1
             {
                 v[i] = rnd.Next(0, 100);
             }
-            double somma = 0;
             for(int j = 0; j < 10; j++)
             {
                 somma += v[j];
